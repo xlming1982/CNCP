@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160.0dp"
+        android:background="#FF009AC8"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30.0dp"
+                android:layout_height="30.0dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_launcher"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="智能化管线管理系统"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFFFF"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="国产二维平台"
+                    android:textSize="16sp"
+                    android:layout_marginTop="5.0dp"
+                    android:textColor="#FFFFFFFF"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="10.0dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#FFFFFFFF"
+            android:text="Domestic Two-dimensional Platform"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="10.0dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#FFFFFFFF"
+            android:text="For Intelligent Pipeline Management System"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5.0dp"
+        android:paddingBottom="5.0dp"
+        android:paddingLeft="10.0dp"
+        android:background="#FFE1E0DB"
+        android:text="首页"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:textColor="#FF9D9B9E"/>
+
+    <GridView
+        android:id="@+id/leftmenu_gv"
+        android:layout_width="match_parent"
+        android:numColumns="4"
+        android:background="#FFE6E6E6"
+        android:layout_height="200.0dp" />
+
+    <ListView
+        android:id="@+id/leftmenu_lv"
+        android:background="#FFE1E0DB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00FFFFFF"
+        android:divider="#FFC4C4C4"
+        android:dividerHeight="1.0dp"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+</LinearLayout>

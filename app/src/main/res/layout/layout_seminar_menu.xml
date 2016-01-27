@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40.0dp"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#FFD4D4D4" />
+
+    <LinearLayout
+        android:id="@+id/seminarmenu_ll"
+        android:layout_width="match_parent"
+        android:layout_height="39.5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专题选择"
+            android:textSize="16sp"
+            android:textColor="#FF666666"/>
+
+        <ImageView
+            android:id="@+id/seminarmenu_image"
+            android:layout_width="20.0dp"
+            android:layout_height="20.0dp"
+            android:layout_marginLeft="5.0dp"
+            android:src="@drawable/darrow"/>
+
+    </LinearLayout>
+
+</LinearLayout>
